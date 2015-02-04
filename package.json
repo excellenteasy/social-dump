@@ -1,0 +1,30 @@
+{
+  "name": "social-dump",
+  "description": "dump all your social media entries into a couchdb",
+  "version": "1.0.0",
+  "author": "Stephan Bönnemann <stephan@boennemann>",
+  "bugs": {
+    "url": "https://github.com/excellenteasy/social-dump/issues"
+  },
+  "dependencies": {
+    "express": "^4.11.2"
+  },
+  "devDependencies": {
+    "semantic-release": "^1.2.1",
+    "standard": "^2.4.1",
+    "tap-spec": "^2.2.0",
+    "tape": "^3.5.0"
+  },
+  "homepage": "https://github.com/excellenteasy/social-dump",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/excellenteasy/social-dump.git"
+  },
+  "scripts": {
+    "deploy": "semantic-release pre && semantic-release post",
+    "start": "node index",
+    "test": "standard && node tests | tap-spec"
+  }
+}
