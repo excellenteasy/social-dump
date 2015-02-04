@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+- '0.10'
+sudo: false
+cache:
+  directories:
+  - node_modules
+notifications:
+  email: false
+after_success:
+  - npm run deploy
+deploy:
+  provider: heroku
+  skip_cleanup: true
+  api_key:
+    secure: DuN3t1r9XuZtZDvuqJKTlSMWqGCaYQZjHTALzca2K5+iP144t6IYxPeAESRWBUSA7O7diMGjzj7dwUFqdanzOIL04hDW9rLbzvJDeNqYSJ2fpebCuEabXcrqOt7BIMtZMte/jRFDiKd5htp4tnN3AxPWzAeTPwAS3FPLXz8v6yc=
+  app: social-dump
+  on:
+    all_branches: true
+    tags: true
+    repo: excellenteasy/social-dump
