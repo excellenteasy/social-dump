@@ -8,3 +8,6 @@ app.get('/', function(req, res) {
 })
 
 app.listen(process.env.PORT | 5000)
+
+require('./lib/twitter')()
+

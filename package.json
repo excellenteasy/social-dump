@@ -7,10 +7,12 @@
     "url": "https://github.com/excellenteasy/social-dump/issues"
   },
   "dependencies": {
-    "express": "^4.11.2"
+    "cradle": "^0.6.9",
+    "express": "^4.11.2",
+    "twit": "^1.1.19"
   },
   "devDependencies": {
-    "semantic-release": "^1.2.1",
+    "semantic-release": "^2.0.0",
     "standard": "^2.4.1",
     "tap-spec": "^2.2.0",
     "tape": "^3.5.0"
