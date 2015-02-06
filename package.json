@@ -26,7 +26,7 @@
   },
   "scripts": {
     "deploy": "semantic-release pre && semantic-release post",
-    "start": "node index",
+    "start": "nf start",
     "test": "standard && node tests | tap-spec"
   }
 }
