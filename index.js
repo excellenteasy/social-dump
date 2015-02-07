@@ -11,3 +11,4 @@ app.listen(process.env.PORT | 5000)
 
 require('./lib/twitter')()
 require('./lib/facebook')()
+require('./lib/feed')()

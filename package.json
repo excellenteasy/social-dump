@@ -11,8 +11,10 @@
     "cradle": "^0.6.9",
     "express": "^4.11.2",
     "fb": "^0.7.0",
+    "feedparser": "^0.19.2",
     "foreman": "^1.3.0",
     "forever": "^0.14.1",
+    "request": "^2.53.0",
     "twit": "^1.1.19"
   },
   "devDependencies": {
