@@ -9,8 +9,12 @@ app.get('/', function(req, res) {
 
 require('./lib/twitter')()
 require('./lib/facebook')()
-require('./lib/feed')()
 require('./lib/instagram')()
-require('./lib/podcast')()
+setTimeout(function() {
+  if (process.env.PODCAST_URL) require('./lib/podcast')(process.env.PODCAST_URL, 'podcast')
+}, 60 * 60 * 1e3)
+setTimeout(function() {
+  if (process.env.BLOG_URL) require('./lib/feed')(process.env.BLOG_URL, 'blog')
+}, 60 * 60 * 1000)
 
 app.listen(process.env.PORT || 5000)
