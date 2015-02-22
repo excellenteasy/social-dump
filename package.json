@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "bluebird": "^2.9.6",
+    "cors": "^2.5.3",
     "express": "^4.11.2",
     "fb": "^0.7.0",
     "feedparser": "^0.19.2",
