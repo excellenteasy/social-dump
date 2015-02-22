@@ -17,6 +17,7 @@
     "memdown": "^1.0.0",
     "pickup": "^2.0.3",
     "pouchdb": "^3.3.1",
+    "pouchdb-replication-stream": "git://github.com/boennemann/pouchdb-replication-stream#fix-dependencies",
     "request": "^2.53.0",
     "twit": "^1.1.19"
   },
