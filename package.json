@@ -21,7 +21,8 @@
     "pouchdb": "^3.3.1",
     "pouchdb-replication-stream": "^1.1.1",
     "request": "^2.53.0",
-    "twit": "^1.1.19"
+    "twit": "^1.1.19",
+    "youtube-api": "^0.3.2"
   },
   "devDependencies": {
     "semantic-release": "^2.0.0",
